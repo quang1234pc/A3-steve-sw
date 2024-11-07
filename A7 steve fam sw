@@ -3,6 +3,6 @@ _G.weapon = true
 while _G.weapon do
       wait(0.1)
 for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
-      if v.Name == "Gryphon" then v:Activate() end
+      if v.Name == "Combat" then v:Activate() end
       end
       end
